@@ -8,13 +8,15 @@ type PaymentSource struct {
 	Balance Money
 }
 
+type Currency string
+
 type PAN string
 
 type Card struct {
 	ID       int
 	Name     string
 	Number   PAN
-	Currency string
+	Currency Currency
 	Color    string
 	Balance  Money
 	Active   bool
