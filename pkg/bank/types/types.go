@@ -28,3 +28,9 @@ type Card struct {
 	Balance  Money
 	Active   bool
 }
+
+type Payment struct {
+	ID       int
+	Amount   Money
+	Category Category
+}
