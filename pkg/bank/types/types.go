@@ -8,6 +8,12 @@ type PaymentSource struct {
 	Balance Money
 }
 
+const (
+  TJS Currency = "TJS"
+  RUB Currency = "RUB"
+  USD Currency = "USD"
+)
+
 type Currency string
 
 type PAN string
