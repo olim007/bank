@@ -26,6 +26,11 @@ type Card struct {
 	Currency Currency
 	Color    string
 	Balance  Money
-	MinBalance Money
 	Active   bool
+}
+
+type Payment struct {
+	ID       int
+	Amount   Money
+	Category Category
 }
