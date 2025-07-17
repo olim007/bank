@@ -16,6 +16,7 @@ const (
 )
 
 type Currency string
+type Category string
 
 type PAN string
 
