@@ -1,3 +1,3 @@
-module github.com/olim007/bank/v2
+module github.com/olim007/bank
 
 go 1.24.0
